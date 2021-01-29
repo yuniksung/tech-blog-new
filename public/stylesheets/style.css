@@ -1,0 +1,356 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: Helvetica, sans-serif;
+  background-color: #F1F7ED;
+}
+
+/* home-page */
+.home-txt{
+  height: 10vh;
+  width: 50%;
+  margin: 20px auto;
+  text-align: center;
+  font-size: 50px;
+  color: #91c7b1;
+}
+.post-list{
+  width: 50%;
+  margin: 0 auto;
+}
+
+.each-post{
+  list-style: none;
+  border-bottom: 1px solid gray;
+}
+
+
+header{
+  width: 100%; 
+  height: 30vh;
+  background-color:#b33951;
+}
+
+.header-wrapper{
+  width: 80%; 
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.header-wrapper > a{
+  text-decoration: none;
+  color: #e3d081;
+  font-size: 60px;
+  font-weight: 900;
+  height: 60%;
+}
+
+nav > a{
+  font-size: 20px;
+  font-weight: 700;
+  color: #e3d081;
+  padding: 10px 20px;
+  text-decoration: none;
+  background-color: #54494b;
+  text-decoration: none;
+  border-radius: 10px;
+  margin: 0 5px 20px 5px;
+}
+
+nav > button{
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 700;
+  color: #e3d081;
+  padding: 10px 20px;
+  text-decoration: none;
+  background-color: #54494b;
+  text-decoration: none;
+  border-radius: 10px;
+  margin: 0 5px 20px 5px;
+  border: none;
+}
+
+/* Login */
+
+form{
+  width: 50%;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login-form h1 {
+  color: #91c7b1;
+  font-size: 50px;
+  margin: 50px;
+}
+
+.login-form label {
+  display: none;
+
+}
+
+.login-form input {
+  font-size: 20px;
+  margin-bottom: 20px;
+  width: 500px;
+  padding: 5px;
+}
+
+.login-form button {
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 700;
+  color: #e3d081;
+  padding: 10px 20px;
+  text-decoration: none;
+  background-color: #54494b;
+  text-decoration: none;
+  border-radius: 10px;
+  margin: 0 5px 20px 5px;
+  border: none;
+}
+
+/* Sign up */
+
+
+.signup-form h1 {
+  color: #91c7b1;
+  font-size: 50px;
+  margin: 50px;
+}
+
+.signup-form label {
+  display: none;
+}
+
+.signup-form input {
+  font-size: 20px;
+  margin-bottom: 20px;
+  width: 500px;
+  padding: 5px;
+}
+
+.signup-form button {
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 700;
+  color: #e3d081;
+  padding: 10px 20px;
+  text-decoration: none;
+  background-color: #54494b;
+  text-decoration: none;
+  border-radius: 10px;
+  margin: 0 5px 20px 5px;
+  border: none;
+}
+
+/* Dashboard */
+
+.dashboard{
+  width: 50%;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.dashboard h1 {
+  color: #91c7b1;
+  font-size: 50px;
+  margin: 50px;
+}
+
+.dashboard label {
+  display: none;
+}
+
+.dashboard input {
+  font-size: 20px;
+  margin-bottom: 20px;
+  width: 500px;
+  padding: 5px;
+}
+
+.dashboard textarea {
+  font-size: 20px;
+  margin-bottom: 20px;
+  width: 500px;
+  height: 300px;
+  padding: 5px;
+}
+
+.dashboard button {
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 700;
+  color: #e3d081;
+  padding: 10px 20px;
+  text-decoration: none;
+  background-color: #54494b;
+  text-decoration: none;
+  border-radius: 10px;
+  margin: 0 5px 20px 5px;
+  border: none;
+}
+
+/* dashboard -- post */
+
+.dashboard-post{
+  width: 100%;
+  margin: 20px auto;
+
+  background-color: #e3d081;
+}
+
+.posts{
+  width: 40%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.posts > h2 {
+  color: #b33951;
+  font-style: italic;
+  font-size: 40px;
+  margin: 20px;
+  border-bottom: 1px solid #b33951;
+}
+
+.single-post{
+  margin: 10px 0;
+  padding: 20px;
+  background-color: rgba(255, 244, 198, 0.2);
+}
+
+.title > h2{
+  font-size: 25px;
+  margin-bottom: 15px;
+}
+
+.title > span{
+  font-size: 18px;
+  margin-bottom: 25px;
+
+}
+
+.meta{
+  margin: 15px 0;
+  width: 150px;
+}
+
+.meta > a{
+  text-decoration: none;
+  color: gray;
+  margin-top: 15px;
+}
+
+.edit-link{
+  text-decoration: none;
+  margin-top: 15px;
+  color: rgb(77, 77, 77);
+}
+
+.comment-form textarea{
+  font-size: 20px;
+  margin-bottom: 20px;
+  width: 500px;
+  height: 100px;
+  padding: 5px;
+}
+
+.comment-form button{
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 700;
+  color: #e3d081;
+  padding: 10px 20px;
+  text-decoration: none;
+  background-color: #54494b;
+  text-decoration: none;
+  border-radius: 10px;
+  margin: 0 5px 20px 5px;
+  border: none;
+}
+
+.post {
+  width: 60%;
+  margin: auto;
+}
+
+.comment{
+  width: 60%;
+  margin: auto;
+}
+
+.text{
+  padding: 0 20px;
+}
+
+/* Edit Post */
+.edit-post{
+  width: 50%;
+  margin: 20px auto;
+}
+
+.back-to-dash{
+  text-decoration: none;
+  color: black;
+  font-style: italic;
+  font-weight: 700;
+}
+
+.edit-post > h2{
+  color: #91c7b1;
+  font-size: 50px;
+  margin: 50px;
+  text-align: center;
+}
+
+.edit-post-form{
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.edit-post-form input{
+  font-size: 20px;
+  margin-bottom: 20px;
+  width: 500px;
+  padding: 5px;
+}
+
+.edit-post-form textarea{
+  font-size: 20px;
+  margin-bottom: 20px;
+  width: 500px;
+  height: 100px;
+  padding: 5px;
+}
+
+.edit-post-form button{
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 700;
+  color: #e3d081;
+  padding: 10px 20px;
+  text-decoration: none;
+  background-color: #54494b;
+  text-decoration: none;
+  border-radius: 10px;
+  margin: 10px 5px 0 5px;
+  border: none;
+}
