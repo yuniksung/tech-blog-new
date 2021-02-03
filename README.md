@@ -7,7 +7,7 @@ An application that is able to post, edit, delete, comment posts.
 ## Link to Project
 
 ### Heroku deployed:
-* https://yunik-tech-blog.herokuapp.com/
+* https://techblog-yunik.herokuapp.com/
 
 ### Git repository:
 * https://github.com/yuniksung/tech-blog-new
