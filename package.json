@@ -28,12 +28,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Gocus10/tech-blog.git"
+    "url": "git+https://github.com/yuniksung/tech-blog-new.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Gocus10/tech-blog/issues"
+    "url": "https://github.com/yuniksung/tech-blog-new/issues"
   },
-  "homepage": "https://github.com/Gocus10/tech-blog#readme"
+  "homepage": "https://github.com/yuniksung/tech-blog-new#readme"
 }
